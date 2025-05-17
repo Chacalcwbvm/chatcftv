@@ -1,0 +1,19 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input {
+  @apply w-full px-4 py-2 border rounded-lg dark:bg-gray-800 dark:text-white;
+}
+
+.btn {
+  @apply px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700;
+}
+.input {
+  @apply w-full px-4 py-2 border rounded-lg dark:bg-gray-800 dark:text-white;
+}
+
+.btn {
+  @apply px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700;
+}
